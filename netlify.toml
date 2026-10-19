@@ -1,2 +1,4 @@
 [build]
 	publish = "."
+	# No build step; overrides any build command left in the Netlify UI from the old React app
+	command = "echo 'No build step'"
