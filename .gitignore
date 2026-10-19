@@ -4,3 +4,6 @@ Thumbs.db
 
 # Netlify CLI
 .netlify
+
+# Netlify deploy copy
+build/

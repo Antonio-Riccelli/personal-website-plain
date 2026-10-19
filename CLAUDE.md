@@ -7,7 +7,7 @@ Minimal single-page personal site for Antonio Riccelli: photo, LinkedIn and GitH
 ## Tech Stack
 
 - Plain HTML and CSS, no framework, no build step, no JavaScript
-- **Deploy**: Netlify, publishing the repo root as-is (`netlify.toml`)
+- **Deploy**: Netlify, the build command copies the static files into `build/`, which is published (`netlify.toml`)
 
 ## Development
 
@@ -20,7 +20,7 @@ index.html     # The whole page
 styles.css     # All styles; colours are custom properties on :root
 images/        # profile.webp (448px square, shown at 224px)
 favicon.png
-netlify.toml   # Static deploy config
+netlify.toml   # Deploy config (copies files into build/)
 ```
 
 ## Conventions
