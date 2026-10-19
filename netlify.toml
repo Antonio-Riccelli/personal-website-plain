@@ -1,4 +1,2 @@
 [build]
-	# The Netlify UI still deploys the 'build' folder from the old app, so copy the static files there
-	command = "mkdir -p build && cp -r index.html styles.css favicon.png images build/"
-	publish = "build"
+	publish = "."
